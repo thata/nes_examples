@@ -79,9 +79,11 @@ palettes:
 message:
 	.byte	"Hello Famicon"
 
-;;; 背景画像
+
+;;; フォントデータを読み込み
+;;; NES研究室のサンプルプログラムから持ってきたもの
+;;; http://hp.vector.co.jp/authors/VA042397/nes/sample.html
   .bank 2
   .org $0000
-  ; http://hp.vector.co.jp/authors/VA042397/nes/sample.html
   .incbin "character.chr"
 

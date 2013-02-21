@@ -77,7 +77,7 @@ palettes:
 
 ; 表示するメッセージ
 message:
-	.byte	"Hello Famicon"
+	.byte	"Hello Famicom"
 
 
 ;;; フォントデータを読み込み
